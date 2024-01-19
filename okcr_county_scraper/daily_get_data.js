@@ -23,6 +23,10 @@ const formatDate = (date) => {
   return [year, month, day].join("-");
 };
 
+async function delay(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 // start date and end date
 let today = new Date();
 let start_date = new Date();
@@ -90,6 +94,7 @@ async function processUrls(urls, outputFile) {
 
   for (let url of urls) {
     const page = await browser.newPage();
+    await delay(500);
     await page.goto(url);
 
     // Extract data from the page as before (omitted for brevity)

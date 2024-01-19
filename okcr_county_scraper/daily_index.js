@@ -21,6 +21,10 @@ const formatDate = (date) => {
   return [year, month, day].join("-");
 };
 
+async function delay(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 (async () => {
   const csvContent = fs.readFileSync("input.csv", "utf8");
   parse(csvContent, async (err, records) => {
@@ -50,6 +54,7 @@ const formatDate = (date) => {
       start_date.setTime(today.getTime() - 6 * oneDayInMs);
 
       try {
+        await delay(500);
         await page.goto(
           `https://okcountyrecords.com/results/site=${
             record[0]
@@ -73,6 +78,7 @@ const formatDate = (date) => {
 
         console.log(dividedNumber);
         for (let i = 1; i <= dividedNumber; i++) {
+          await delay(500);
           await page.goto(
             `https://okcountyrecords.com/results/site=${
               record[0]
