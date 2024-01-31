@@ -44,6 +44,7 @@ The list of clerk names:
 * <a href="https://www.okcc.online/#">Oklahoma county Clerk</a>
 * <a href="https://idocmarket.com/Security/Register">Woods County Clerk</a>
 * <a href="https://clerk.clevelandcountyok.com/web/user/disclaimer">Cleveland County Clerk</a>
+* <a href="https://acclaim.tulsacounty.org/AcclaimWeb/Account/Login">Tulsa County Clerk</a>
 
 ### Built With
 
