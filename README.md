@@ -44,6 +44,7 @@ The list of clerk names:
 * <a href="https://www.okcc.online/#">Oklahoma county Clerk</a>
 * <a href="https://idocmarket.com/Security/Register">Woods County Clerk</a>
 * <a href="https://clerk.clevelandcountyok.com/web/user/disclaimer">Cleveland County Clerk</a>
+* <a href="https://acclaim.tulsacounty.org/AcclaimWeb/Account/Login">Tulsa County Clerk</a>
 
 ### Built With
 
@@ -73,7 +74,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git](https://github.com/flurryunicorn/county-lib-scraper
+   git clone https://github.com/flurryunicorn/county-lib-scraper.git
    
    ```
 2. Install NPM packages
